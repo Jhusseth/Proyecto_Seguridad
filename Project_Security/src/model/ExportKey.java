@@ -20,9 +20,14 @@ public class ExportKey {
 	 */
 	private KeyGenerator keyGenerator;
 	
+	/**
+	 * 
+	 */
+	private String message;
 	
 	public ExportKey() {
 		keyGenerator = new KeyGenerator();
+		message = "";
 	}
 
 	/**
@@ -32,17 +37,12 @@ public class ExportKey {
 	public void generateFiles(String ruta) throws IOException {
 		
 		KeyPair keyPair = keyGenerator.generateKeys();
-//		String publicPath = "./prueba.pub";
-//		String privatePath = "./private.txt";
-
-//        File publicKeyFile = new File(publicPath);
-//        File privateKeyFile = new File(privatePath);
    
         Base64.Encoder encoder = Base64.getEncoder();
-        System.out.println("Formato privada: "+keyPair.getPrivate().getFormat());
+        message +="~/ Formato llave privada: "+keyPair.getPrivate().getFormat() + "\n";
         
         byte[] publicKey = keyPair.getPublic().getEncoded();
-        System.out.println("Formato publica: "+keyPair.getPublic().getFormat());
+        message +="~/ Formato llave publica: "+keyPair.getPublic().getFormat() + "\n";
         
         Writer outPublic = new FileWriter(ruta +"/public" + ".pub");
         outPublic.write("-----BEGIN RSA PUBLIC KEY-----\n");
@@ -54,6 +54,9 @@ public class ExportKey {
         FileOutputStream out = new FileOutputStream(ruta + "/private" + ".key");
         out.write(pvt.getEncoded());
         out.close();
+	}
 
+	public String getMessage() {
+		return message;
 	}
 }

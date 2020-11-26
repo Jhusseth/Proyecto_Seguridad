@@ -32,16 +32,17 @@ public class Panel_Answers  extends JPanel{
 	public Panel_Answers () {
 		setBackground(Color.WHITE);
 		
-		text = new JTextArea(15,40);
+		text = new JTextArea(15,41);
 		text.setBackground(Color.BLUE);
 		text.setForeground(Color.WHITE);
-		text.setText("");
+		text.setText("------------------------------------------------ Bienvenido --------------------------------------------- \n");
 		text.setEditable(false);
 		
 		JScrollPane scroll = new JScrollPane(text);
 		scroll.setViewportBorder(new LineBorder(Color.BLACK, 5));
 		
 		scroll.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
+		scroll.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 		
 		scroll.setBackground(Color.WHITE);
 		
@@ -54,6 +55,7 @@ public class Panel_Answers  extends JPanel{
 	
 	public void clean() {
 		text.setText("");
+		text.setText("------------------------------------------------ Bienvenido --------------------------------------------- \n");
 	}
 
 	

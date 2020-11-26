@@ -34,8 +34,7 @@ public class ControllerMain {
 	
 	
 	public void createKeys(String ruta) {
-		
-		message = "----------------------------------------------------------------------------------------------------------------- \n" ;
+		message = "-------------------------------------------------------------------------------------------------------------- \n" ;
 		
 		message +="~/ Generando archivos .... \n";
 		try {
@@ -44,19 +43,20 @@ public class ControllerMain {
 			e.printStackTrace();
 		}
 		message +="~/ Archivos generados --> Ruta: "+ ruta + "\n";
-		message +="~/ public.pub .... Ok \n ";
+		message +=ek.getMessage();
 		message +="~/ private.key .... Ok \n";
-		message +="----------------------------------------------------------------------------------------------------------------- \n" ;
+		message +="~/ public.pub .... Ok \n";
+		message +="-------------------------------------------------------------------------------------------------------------- \n" ;
 	}
 	
 	public void signaturefile(String file,String kpv,String fileSave) {
-		message ="----------------------------------------------------------------------------------------------------------------- \n" ;
+		message ="-------------------------------------------------------------------------------------------------------------- \n" ;
 		try {
 			
 			message +="~/ Firmando archivo .... \n";
 			
 			fm.signature(file, kpv, fileSave);
-			message +="~/ El archivo se firmo correctamente \n ";
+			message +="~/ El archivo se firmo correctamente \n";
 			message +="~/ Ruta del archivo firmado : " + fileSave + "\n";
 			
 			
@@ -65,13 +65,13 @@ public class ControllerMain {
 			e.printStackTrace();
 			message +="~/ Se cancelo la firma del archivo \n";
 		}
-		message +="----------------------------------------------------------------------------------------------------------------- \n" ;
+		message +="-------------------------------------------------------------------------------------------------------------- \n" ;
 	}
 	
 	
 	public void verifySignature(String pbk, String file, String dataFile) {
 		
-		message = "----------------------------------------------------------------------------------------------------------------- \n" ;
+		message = "-------------------------------------------------------------------------------------------------------------- \n" ;
 		
 		message +="~/ Verificando archivo .... \n";
 		
@@ -80,7 +80,7 @@ public class ControllerMain {
 		message +="~/ " + ds.getAnswer() + "\n";
 		message +="~/ Ruta del archivo verificado : " + dataFile + "\n";
 		
-		message +="----------------------------------------------------------------------------------------------------------------- \n" ;
+		message +="-------------------------------------------------------------------------------------------------------------- \n" ;
 		
 	}
 
