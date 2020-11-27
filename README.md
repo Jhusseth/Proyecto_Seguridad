@@ -1,6 +1,6 @@
 # Proyecto Seguridad                                                                         
 
-proyecto de seguridad semestre 2020-2 
+Proyecto de seguridad semestre 2020-2
 
 #### **Integrantes:**
 
@@ -18,17 +18,17 @@ proyecto de seguridad semestre 2020-2
 
 
 
-### La Interfaz pricnipal cuenta con 3 opciones relevantes:
+### La Interfaz principal cuenta con 3 opciones relevantes:
 
 #### Crear llaves:
 
-* Directorio donde se almacena la llave publica y privada:
+* Seleccionar directorio donde se almacenara la llave publica y privada:
 
 ![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Create_Keys.PNG)
 
 
 
-* Crea la llave publica y la llave privada
+* Se crea la llave publica y la llave privada:
 
 ![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Create_Keys_2.PNG)
 
@@ -36,25 +36,25 @@ proyecto de seguridad semestre 2020-2
 
 #### Firmar archivos:
 
-* En primer lugar se debe seleccionar el archivo que se va a firmar
+* En primer lugar se debe seleccionar el archivo que se va a firmar:
 
 ![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Create_Signature.PNG)
 
 
 
-* En segudno lugar se debe seleccionar la llave privada
+* En segundo lugar se debe seleccionar la llave privada:
 
 ![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Create_Signature_2.PNG)
 
 
 
-* Luego se guarda el archivo que contiene la firma 
+* Luego se guarda el archivo que contiene la firma: 
 
 ![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Create_Signature_3.PNG)
 
 
 
-* Finalmente se crea la firma
+* Finalmente se crea la firma:
 
 ![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Create_Signature_4.PNG)
 
@@ -62,13 +62,13 @@ proyecto de seguridad semestre 2020-2
 
 #### Verificar Firma
 
-* En primer lugar se debe seleccionar la llave publica
+* En primer lugar se debe seleccionar la llave publica:
 
 ![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Verify_Signature.PNG)
 
 
 
-* En segudno lugar se debe seleccionar el archivo que contiene la firma
+* En segundo lugar se debe seleccionar el archivo que contiene la firma:
 
 ![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Verify_Signature_2.PNG)
 
@@ -80,7 +80,7 @@ proyecto de seguridad semestre 2020-2
 
 
 
-* Finalmente se verifica la firma
+* Finalmente se verifica la firma:
 
 ![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Verify_Signature_4.PNG)
 
