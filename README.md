@@ -9,6 +9,7 @@ Project of Security for the semester 2020-2
 
 
 
+
 # Uso
 
 #### **Interfaz principal: **
@@ -62,6 +63,9 @@ La Interfaz pricnipal cuenta con 3 opciones relevantes:
 * Finalmente se verifica la firma
 
 ![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Verify_Signature_4.PNG)
+
+
+
 
 
 
