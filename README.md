@@ -1,6 +1,6 @@
 # Proyecto Seguridad                                                                         
 
-Project of Security for the semester 2020-2 
+proyecto de seguridad semestre 2020-2 
 
 #### **Integrantes:**
 
@@ -12,7 +12,7 @@ Project of Security for the semester 2020-2
 
 # Uso
 
-## ** Interfaz principal: **
+## **Interfaz principal:**
 
 ![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Interfaz_Main.PNG) 
 
