@@ -7,6 +7,65 @@ Project of Security for the semester 2020-2
 * Jhusseth Sanchez
 * Sebastian Rebolledo
 
+
+
+# Uso
+
+#### **Interfaz principal: **
+
+![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Interfaz_Main.PNG) 
+
+La Interfaz pricnipal cuenta con 3 opciones relevantes:
+
+## Crear llaves:
+
+![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Create_Keys.PNG)
+
+* Crea la llave publica y la llave privada
+
+![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Create_Keys_2.PNG)
+
+
+## Firmar archivos:
+
+* En primer lugar se debe seleccionar el archivo que se va a firmar
+
+![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Create_Signature.PNG)
+
+* En segudno lugar se debe seleccionar la llave privada
+
+![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Create_Signature_2.PNG)
+
+* Luego se guarda el archivo que contiene la firma 
+
+![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Create_Signature_3.PNG)
+
+* Finalmente se crea la firma
+
+![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Create_Signature_4.PNG)
+
+
+## Verificar Firma
+
+* En primer lugar se debe seleccionar la llave publica
+
+![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Verify_Signature.PNG)
+
+* En segudno lugar se debe seleccionar el archivo que contiene la firma
+
+![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Verify_Signature_2.PNG)
+
+* Luego se debe seleccionar el archivo a verificar la firma:
+
+![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Verify_Signature_3.PNG)
+
+* Finalmente se verifica la firma
+
+![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Verify_Signature_4.PNG)
+
+
+
+
 # Informe
 
 ## Desarrollo del programa
@@ -23,8 +82,6 @@ Project of Security for the semester 2020-2
  Hemos decidido relizar un interfaz grafica que le permita al usuario usarla facilmente. Por tanto, el usuario al iniciar el programa puede conocer facilmente cuales son 
  las mencionadas anteriormente, para que pueda elegir. 
          
-
-
                                                      
 ## Dificultades
 
