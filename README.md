@@ -22,13 +22,13 @@ Proyecto de seguridad semestre 2020-2
 
 #### Crear llaves:
 
-* Seleccionar directorio donde se almacenara la llave publica y privada:
+* Seleccionar directorio donde se almacenara la llave pública y privada:
 
 ![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Create_Keys.PNG)
 
 
 
-* Se crea la llave publica y la llave privada:
+* Se crea la llave pública y la llave privada:
 
 ![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Create_Keys_2.PNG)
 
@@ -62,7 +62,7 @@ Proyecto de seguridad semestre 2020-2
 
 #### Verificar Firma
 
-* En primer lugar se debe seleccionar la llave publica:
+* En primer lugar se debe seleccionar la llave pública:
 
 ![alt text](https://github.com/Jhusseth/Proyecto_Seguridad/blob/main/Project_Security/docs/images/Verify_Signature.PNG)
 
@@ -96,7 +96,7 @@ Proyecto de seguridad semestre 2020-2
  
  Para el desarrollo de este proyecto, pasamos a dividirnos los tres requerimientos encontrados en el enunciado. Las cuales  
  derivan las siguientes funcionalidades:
- - Creación de clave publica y privada
+ - Creación de clave pública y privada
  - Generación de firma digital
  - Verificación de firma digital
  
