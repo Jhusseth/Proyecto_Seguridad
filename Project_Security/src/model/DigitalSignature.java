@@ -81,7 +81,7 @@ public class DigitalSignature {
 			
 			
 			boolean verifies = sig.verify(sigToVerify);
-			answer = "signature verifies: " + (verifies ? "OK" : "Not OK");
+			answer = "signature verifies: " + (verifies ? " OK¡¡" : " BAD");
 			
 			
 		}catch (Exception e) {
