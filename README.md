@@ -2,10 +2,9 @@
 
 Proyecto de seguridad semestre 2020-2
 
-#### **Integrantes:**
+#### **Propietario:**
 
 * Jhusseth Sanchez
-* Sebastian Rebolledo
 
 
 
