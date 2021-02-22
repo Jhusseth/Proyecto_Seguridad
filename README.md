@@ -2,7 +2,7 @@
 
 Proyecto de seguridad semestre 2020-2
 
-#### **Propietario:**
+#### **Desarrollador:**
 
 * Jhusseth Sanchez
 
